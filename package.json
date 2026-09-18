@@ -1,0 +1,9 @@
+{
+  "name": "superfert-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node -e \"require('fs').accessSync('index.html'); console.log('Static site is ready for deployment.')\""
+  }
+}
